@@ -1,6 +1,6 @@
 # Breast Cancer Detection
 <div>
-  <img src="https://th.bing.com/th/id/OIP.7jeJ0rj2Ii4UVrinpeZ5HwHaD4?w=345&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="breast-cancer-detection.jpeg" height=500 width 1000>
+  <img src="https://th.bing.com/th/id/OIP.7jeJ0rj2Ii4UVrinpeZ5HwHaD4?w=345&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="breast-cancer-detection.jpeg" height=500 width=1000>
 </div>
 <div>
   <h2>Objective:</h2>
@@ -25,6 +25,7 @@
 <div>
   <h2>Models deployed</h2>
   <h3>Support Vector Machines (SVM)</h3>
+  <img src="https://th.bing.com/th?id=OIP.OKO_JOxkTZWAfVk3cOEX3wHaEK&w=333&h=187&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2" alt="SVM.jpeg" width=500 height=200>
   <p>
     Support Vector Machine (SVM) is a supervised machine learning algorithm which can be used for both classification or regression challenges. However, it is mostly
     used in classification problems. In this algorithm, each data item is plotted as a point in n-dimensional space (where n is number of features you have) with the
