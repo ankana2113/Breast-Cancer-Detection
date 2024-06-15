@@ -16,7 +16,7 @@
     1. Understanding the problem. <br>
     2. Exploratory Data Analysis. <br>
     3. Data pre-processing. <br>
-    4. Build and train model to predict whether tumor is <bold>Malignant</bold> or <bold>Benign</bold>. <br>
+    4. Build and train model to predict whether tumor is <code><bold>Malignant</bold></code> or <code><bold>Benign</bold></code>. <br>
   </p>
 </div>
 
