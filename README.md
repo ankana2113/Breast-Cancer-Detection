@@ -72,8 +72,8 @@
   <h2>Metrics of this Use-Case</h2>
   <p>
     In breast cancer classification, both precision and recall are likely very important. You want to minimize both false positives and false negatives. Here's why:<br>
-    <bold>High Recall</bold>: You don't want to miss any potential cancer cases, so a high recall ensures you catch most, if not all, of the cancerous tumors.<br>
-    <bold>High Precision</bold>: Biopsies are invasive and can cause anxiety. High precision helps avoid unnecessary biopsies on healthy tissue.<br>
+    <strong>High Recall</strong>: You don't want to miss any potential cancer cases, so a high recall ensures you catch most, if not all, of the cancerous tumors.<br>
+    <strong>High Precision</strong>: Biopsies are invasive and can cause anxiety. High precision helps avoid unnecessary biopsies on healthy tissue.<br>
     Therefore, it's often recommended to consider both metrics together,  perhaps using the <code>F1-Score</code>code> (harmonic mean of precision and recall) as a combined measure,
     though I have not used it in this model as it often provides equal weight both <code>Recall</code> and <code>Precision</code> whereas We need to keep check of <bold>Recall</bold> slightly more as we dont want to misdiagnose any potential <code>Malignant</code> case as <code>Benign</code> which might be fatal to the patient.<br>
     Additionally, the ROC AUC can be helpful to assess the model's ability to differentiate between cancerous and healthy cases.<br>
