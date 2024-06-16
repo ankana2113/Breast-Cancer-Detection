@@ -32,6 +32,13 @@
     value of each feature being the value of a particular coordinate. Then, we perform classification by finding the hyper-plane that differentiate the two classes
     very well.
   </p>
+  <h3>K-Nearest Neighbor Classifier (KNN)</h3>
+  <img src="https://th.bing.com/th/id/OIP.r00eWT6npui8_JV5BTKrsgHaFR?w=242&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="KNN.jpeg" width=300 height=200>
+  <p>
+    The K-Nearest Neighbors (KNN) classifier is a popular machine learning method known for its simplicity and intuitive approach to classification. It works by     
+    finding the closest data points (neighbors) to a new data point and assigning a class label based on the majority vote of those neighbors. KNN is versatile, 
+    handling both numerical and categorical data, and doesn't require complex assumptions about the data structure.
+  </p>
 </div>
 
 <div>
