@@ -43,7 +43,42 @@
 
 <div>
   <h2>Metrics</h2>
+  <p>
+    Classification metrics are tools to evaluate how well your classification model performs. Here's a quick rundown of some common ones:
+  </p>
+  <h3>Accuracy</h3>
+  <p>
+    The overall proportion of correct predictions. It's a good starting point, but can be misleading in imbalanced datasets.
+  </p>
+  <h3>Precision</h3>
+  <p>
+    Measures how many of your predicted positives were actually positive. Useful when false positives are costly.
+  </p>
   <h3>Recall</h3>
-  <p></p>
+  <p>
+    Measures how well you capture all the actual positives. Important when missing positive cases is critical.
+  </p>
+  <h3>F1-Score</h3>
+  <p>
+    A harmonic mean of precision and recall, combining both metrics into a single score.
+  </p>
+  <h3>ROC-AUC</h3>
+  <p>
+    Area Under the Receiver Operating Characteristic Curve. It reflects how well your model distinguishes between classes, independent of class distribution.
+  </p>
+</div>
+
+<div>
+  <h2>Metrics of this Use-Case</h2>
+  <p>
+    In breast cancer classification, both precision and recall are likely very important. You want to minimize both false positives and false negatives.  Here's why:
+    <bold>High Recall</bold>: You don't want to miss any potential cancer cases, so a high recall ensures you catch most, if not all, of the cancerous tumors.
+    <bold>High Precision</bold>: Biopsies are invasive and can cause anxiety. High precision helps avoid unnecessary biopsies on healthy tissue.
+    Therefore, it's often recommended to consider both metrics together,  perhaps using the F1-Score (harmonic mean of precision and recall) as a combined measure,
+    though I have not used it in this model as it often provides equal weight both Recall and Precision whereas We need to keep chack of <bold>Recall</bold> slightly
+    higher as we dont want to misdiagnose any potential <code>Malignant</code> case as <code>Benign</code> which might be fatal to the patient.
+    Additionally, the ROC AUC can be helpful to assess the model's ability to differentiate between cancerous and healthy cases.
+    Ultimately, the best metric(s) depend on the specific context and priorities of the medical team using the model.
+  </p>
 </div>
 
