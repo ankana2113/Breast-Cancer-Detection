@@ -46,30 +46,30 @@
   <p>
     Classification metrics are tools to evaluate how well your classification model performs. Here's a quick rundown of some common ones:
   </p>
-  <h3>Accuracy</h3>
+  <h4>Accuracy</h4>
   <p>
     The overall proportion of correct predictions. It's a good starting point, but can be misleading in imbalanced datasets.
   </p>
-  <h3>Precision</h3>
+  <h4>Precision</h4>
   <p>
     Measures how many of your predicted positives were actually positive. Useful when false positives are costly.
   </p>
-  <h3>Recall</h3>
+  <h4>Recall</h4>
   <p>
     Measures how well you capture all the actual positives. Important when missing positive cases is critical.
   </p>
-  <h3>F1-Score</h3>
+  <h4>F1-Score</h4>
   <p>
     A harmonic mean of precision and recall, combining both metrics into a single score.
   </p>
-  <h3>ROC-AUC</h3>
+  <h4>ROC-AUC</h4>
   <p>
     Area Under the Receiver Operating Characteristic Curve. It reflects how well your model distinguishes between classes, independent of class distribution.
   </p>
 </div>
 
 <div>
-  <h2>Metrics of this Use-Case</h2>
+  <h3>Metrics of this Use-Case</h3>
   <p>
     In breast cancer classification, both precision and recall are likely very important. You want to minimize both false positives and false negatives. Here's why:<br>
     <strong>High Recall</strong>: You don't want to miss any potential cancer cases, so a high recall ensures you catch most, if not all, of the cancerous tumors.<br>
